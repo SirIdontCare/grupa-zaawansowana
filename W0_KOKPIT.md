@@ -1,12 +1,12 @@
-# Advanced Track — Moduł 0: Kokpit (VS Code, koniec z autopilotem)
+# Grupa Zaawansowana — Moduł 0: Kokpit (VS Code, koniec z autopilotem)
 
-> 🎯 **To jest bilet wstępu do Advanced Track.** Przejdź Moduł 0, wyślij dowód prowadzącemu — i ruszasz z Modułem 1. Kto nie przejdzie, nic nie traci — wraca do kursu głównego.
+> 🎯 **To jest bilet wstępu do Grupy Zaawansowanej.** Przejdź Moduł 0, wyślij dowód prowadzącemu — i ruszasz z Modułem 1. Kto nie przejdzie, nic nie traci — wraca do kursu głównego.
 
 ## O co chodzi w tej ścieżce
 
 W kursie głównym **zlecałeś** AI: wklejałeś prompt, asystent budował, Ty testowałeś. To była magia — ale magii się nie rozumie, magii się używa.
 
-Advanced Track odwraca to o 180°. Tu **schodzisz pod maskę własnego agenta**: uruchamiasz go ręcznie, czytasz jego kod, wersjonujesz przez git, debugujesz sam. AI zostaje — ale teraz siedzi **w Twoim IDE jako drugi pilot**, a nie jako osobna apka, która robi wszystko za Ciebie.
+Grupa Zaawansowana odwraca to o 180°. Tu **schodzisz pod maskę własnego agenta**: uruchamiasz go ręcznie, czytasz jego kod, wersjonujesz przez git, debugujesz sam. AI zostaje — ale teraz siedzi **w Twoim IDE jako drugi pilot**, a nie jako osobna apka, która robi wszystko za Ciebie.
 
 Pierwszy krok: przesiadka do prawdziwego kokpitu inżyniera — **VS Code**.
 

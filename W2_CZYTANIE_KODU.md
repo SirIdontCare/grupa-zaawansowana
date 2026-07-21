@@ -1,4 +1,4 @@
-# Advanced Track — Moduł 2: Czytaj kod, który AI napisało
+# Grupa Zaawansowana — Moduł 2: Czytaj kod, który AI napisało
 
 > 🔒 **Wymagane wejście:** zaliczony Moduł 1 (repo na GitHubie).
 

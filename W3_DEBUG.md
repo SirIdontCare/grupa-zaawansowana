@@ -1,4 +1,4 @@
-# Advanced Track — Moduł 3: Debugowanie bez AI
+# Grupa Zaawansowana — Moduł 3: Debugowanie bez AI
 
 > 🔒 **Wymagane wejście:** zaliczony Moduł 2 (opis przepływu w README).
 

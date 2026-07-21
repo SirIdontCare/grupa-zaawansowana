@@ -1,4 +1,4 @@
-# Advanced Track — Moduł 4: Capstone — zmiana bez generatora
+# Grupa Zaawansowana — Moduł 4: Capstone — zmiana bez generatora
 
 > 🔒 **Wymagane wejście:** zaliczone Moduły 1–3.
 
@@ -103,7 +103,7 @@ Wyślij **w DM do prowadzącego**:
 2. **link do zmergowanego Pull Requesta**,
 3. jedno zdanie: „Moduł 4 (capstone) gotowy".
 
-## Gratulacje — skończyłeś Advanced Track 🎉
+## Gratulacje — skończyłeś Grupę Zaawansowaną 🎉
 
 Przeszedłeś drogę od „wklejam prompty, AI buduje" do:
 - pracy w prawdziwym IDE,

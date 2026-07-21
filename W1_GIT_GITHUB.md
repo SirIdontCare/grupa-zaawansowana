@@ -1,4 +1,4 @@
-# Advanced Track — Moduł 1: Wersjonowanie jak inżynier (git + GitHub)
+# Grupa Zaawansowana — Moduł 1: Wersjonowanie jak inżynier (git + GitHub)
 
 > 🔒 **Wymagane wejście:** zaliczony Moduł 0 (VS Code + wtyczka AI, projekt agenta otwarty).
 

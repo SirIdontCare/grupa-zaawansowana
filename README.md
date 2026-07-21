@@ -1,4 +1,4 @@
-# Advanced Track — od użytkownika AI do inżyniera
+# Grupa Zaawansowana — od użytkownika AI do inżyniera
 
 Autorska ścieżka dla osób, które chcą przestać *zlecać* AI budowanie aplikacji, a zacząć **rozumieć i kontrolować** własny kod. Zamiast wklejać prompty do gotowej apki — schodzisz pod maskę: VS Code, git, czytanie kodu, debugowanie, pisanie funkcji ręcznie.
 
