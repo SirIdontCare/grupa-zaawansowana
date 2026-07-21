@@ -114,6 +114,10 @@ Przeszedłeś drogę od „wklejam prompty, AI buduje" do:
 
 To nie jest już „użytkownik AI". To ktoś, kto panuje nad swoim projektem.
 
-## Chcesz więcej? → Bonus: trzeci agent z backendem (Python)
+## Chcesz więcej? → Bonus: trzeci agent z backendem (Python) — POZIOM WYŻEJ
 
-Jeśli złapałeś bakcyla, jest jeszcze **moduł bonusowy** — budujesz od zera **trzeciego agenta z prawdziwym backendem w Pythonie**. To już wyższa liga i w pełni opcjonalna. Plik: `W5_BONUS_PYTHON.md`.
+Skończenie Modułów 0–4 to **pełne ukończenie Grupy Zaawansowanej**. Bonus z Pythonem to **osobny, jeszcze wyższy poziom** — już nie część tej ścieżki, tylko krok ponad nią.
+
+Tu budujesz od zera **trzeciego agenta z prawdziwym backendem w Pythonie (FastAPI)** — inny język, inny stack, prawdziwa architektura klient–serwer. To jest w pełni opcjonalne i przeznaczone dla osób, które chcą wyjść poza to, co robiliśmy do tej pory. Plik: `W5_BONUS_PYTHON.md`.
+
+> Nie czujesz się na siłach? **Nie musisz.** Ukończenie Modułu 4 to komplet — bonus jest dla tych, którzy chcą sięgnąć piętro wyżej.
