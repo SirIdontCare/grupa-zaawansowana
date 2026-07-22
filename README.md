@@ -27,16 +27,33 @@ Dla każdego, kto zbudował już aplikację z pomocą asystenta AI i czuje, że 
 
 ## Mapa ścieżki
 
+### Ścieżka główna — te moduły trzeba przejść
+
 | # | Moduł | Czego się nauczysz |
 |---|---|---|
 | **0** | [Kokpit: VS Code, koniec z autopilotem](W0_KOKPIT.md) | VS Code, terminal, uruchomienie projektu ręcznie |
 | **1** | [Wersjonowanie jak inżynier](W1_GIT_GITHUB.md) | git + GitHub, commity, cofanie zmian |
 | **2** | [Czytaj kod, który AI napisało](W2_CZYTANIE_KODU.md) | czytanie kodu, śledzenie przepływu danych |
+| **2.5** | [Elementarz kodu](W2.5_ELEMENTARZ_KODU.md) | zmienne, funkcje, `if`, `return` — rozgrzewka, ~30 min |
 | **3** | [Debugowanie bez AI](W3_DEBUG.md) | stack trace, `console.log`, debugger — na projekcie [`debug_agent/`](debug_agent) |
 | **4** | [Capstone: zmiana bez generatora](W4_CAPSTONE.md) | własna funkcja pisana ręcznie + Pull Request |
-| ⭐ | [Bonus: Twój agent na backendzie w Pythonie](W5_BONUS_PYTHON.md) — **poziom wyżej** | FastAPI, architektura klient–serwer, drugi język |
 
-> ⭐ **Bonus (Python) to osobny, wyższy poziom** — nie część głównej ścieżki, tylko krok ponad nią (inny język, prawdziwy backend). Ukończenie Modułów 0–4 to pełne zaliczenie Grupy Zaawansowanej; bonus jest dla tych, którzy chcą sięgnąć jeszcze wyżej.
+**Ukończenie Modułów 0–4 = pełne zaliczenie Grupy Zaawansowanej.** Każdy moduł ma na końcu sekcję **„Idź dalej"** z dodatkowymi ćwiczeniami dla chętnych.
+
+### Moduły ponadprogramowe — dla chętnych
+
+| Moduł | Czego się nauczysz |
+|---|---|
+| ⭐ [Extra 1: Twoja baza od środka](E1_BAZA_OD_SRODKA.md) | SQL, tabele, własne zapytania do bazy agenta |
+| ⭐ [Extra 2: Panuj nad kosztami agenta](E2_KOSZTY_AGENTA.md) | audyt kosztów, płatne przełączniki, limity, tokeny |
+
+### Poziom wyżej
+
+| Moduł | Czego się nauczysz |
+|---|---|
+| 🐍 [Bonus: Twój agent na backendzie w Pythonie](W5_BONUS_PYTHON.md) | FastAPI, architektura klient–serwer, drugi język |
+
+> 🐍 **Bonus (Python) to osobny, wyższy poziom** — nie część głównej ścieżki, tylko krok ponad nią. Dla tych, którzy chcą sięgnąć jeszcze wyżej.
 
 ## Efekt
 

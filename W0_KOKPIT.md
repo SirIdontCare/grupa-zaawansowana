@@ -90,6 +90,15 @@ Jeśli AI zwróci **PASS** — jesteś w domu.
 
 Wyślij screenshot **w prywatnej wiadomości (DM) do prowadzącego na Discordzie** — nie na publiczny kanał. To **jedyny moduł oddawany screenshotem**: od Modułu 1 zakładasz własne repozytorium na GitHubie i **od tej pory wysyłasz prowadzącemu na priv link do repo**. Cały Twój dalszy postęp widać w historii commitów, więc wystarczy jeden link.
 
+## 🚀 Idź dalej (nieobowiązkowe)
+
+Chcesz wycisnąć z tego modułu więcej? Te ćwiczenia sprawdzisz sam:
+
+1. **Trzy skróty, które oszczędzą Ci godziny:** `Ctrl+P` (skocz do dowolnego pliku po nazwie), `Ctrl+Shift+P` (paleta komend — wszystko, co VS Code potrafi), `` Ctrl+` `` (terminal). Otwórz `route.ts` używając `Ctrl+P` zamiast klikania w drzewie.
+2. **Ogarnij terminal na piechotę:** zamknij terminal VS Code, otwórz systemowy i dojdź do folderu projektu używając `cd`, sprawdzając po drodze `pwd` (Mac/Linux) lub `cd` bez argumentu (Windows) oraz `ls` / `dir`. Uruchom stamtąd `npm run dev`.
+3. **Twardy restart:** zatrzymaj serwer `Ctrl+C`, uruchom ponownie. Zrób to trzy razy, aż przestanie być stresujące — będziesz to robił setki razy.
+4. **Rozejrzyj się:** otwórz `package.json` i znajdź sekcję `"scripts"`. To spis wszystkich komend, jakie Twój projekt potrafi wykonać.
+
 ## Gdzie tkliknąłeś próg zaawansowania
 
 Do tej pory ktoś (AI) uruchamiał Twój projekt za Ciebie. Od teraz **robisz to sam, w narzędziu, w którym pracują prawdziwi inżynierowie.** To nie jest drobiazg — to różnica między „umiem kazać AI zbudować apkę" a „umiem tę apkę prowadzić". Reszta ścieżki stoi na tym fundamencie.

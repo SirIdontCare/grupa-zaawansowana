@@ -135,6 +135,16 @@ Ten sam link będzie służył do końca ścieżki — kolejne moduły dopychasz
 
 > 🛑 Zanim wyślesz — ostatni raz sprawdź, że na GitHubie **nie ma `.env.local`**. Jeśli jest: usuń go z repo (`git rm --cached .env.local`, commit, push), popraw `.gitignore`, i **zmień klucz API w Google AI Studio** — ten stary uznaj za spalony.
 
+## 🚀 Idź dalej (nieobowiązkowe)
+
+Git odwdzięcza się za każdą godzinę. Te ćwiczenia sprawdzisz sam:
+
+1. **Zobacz, co dokładnie zmieniłeś:** zmień coś w pliku i **przed** commitem uruchom `git diff`. Zielone linie to dodane, czerwone — usunięte. To Twoje najlepsze narzędzie kontroli, zanim cokolwiek zatwierdzisz.
+2. **Praca na gałęzi:** `git switch -c eksperyment` → zmień coś śmiało → `git switch main`. Zobacz, że na `main` Twoich zmian nie ma. Tak wygląda bezpieczne eksperymentowanie (w Module 4 zrobisz to na poważnie).
+3. **Cofnij tylko jeden plik:** zepsuj dwa pliki, a potem przywróć **tylko jeden**: `git restore nazwa-pliku`. Drugi zostaje zepsuty — widzisz różnicę między „cofnij wszystko" a „cofnij punktowo".
+4. **Kto to napisał:** `git log --oneline --graph` pokazuje historię jako drzewo. A `git blame nazwa-pliku` pokazuje, kto i kiedy dopisał **każdą linię**. W zespole to codzienność.
+5. **Zadbaj o wizytówkę:** dopisz do `README.md` swojego repo krótki opis projektu. To pierwsza rzecz, którą widzi każdy — łącznie z rekruterem.
+
 ## Gdzie tkliknąłeś próg zaawansowania
 
 Masz teraz kopię swojego kodu w chmurze, historię każdej zmiany i umiejętność cofnięcia dowolnej wpadki. To jest różnica między „mam plik na pulpicie i modlę się, żeby AI nic nie zepsuło" a „pracuję jak zespół inżynierski". Od teraz każda Twoja praca to commity — a to Twoje CV widzi jako pierwsze.

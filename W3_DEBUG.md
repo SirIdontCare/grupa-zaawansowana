@@ -91,6 +91,15 @@ Następnie wyślij **w DM do prowadzącego**:
 1. **link do repo**,
 2. **3 zdania** — po jednym na każdy błąd: co było źle i dlaczego.
 
+## 🚀 Idź dalej (nieobowiązkowe)
+
+Debugowanie to mięsień — rośnie tylko od powtórzeń:
+
+1. **Pomyśl jak tester:** co się stanie, gdy do `grossFromNet` wpadnie `0` osób? A gdy do `truncate` trafi pusty tekst `""`? Sprawdź w praktyce i zastanów się, czy funkcja powinna się przed tym bronić.
+2. **Zepsuj własnego agenta — świadomie:** w swojej kopii projektu skasuj celowo jeden przecinek albo nawias w `route.ts`. Uruchom `npm run dev`, **przeczytaj błąd**, zlokalizuj linię i napraw. Potem cofnij przez `git restore`. To najlepszy trening przed prawdziwą awarią.
+3. **Poznaj debugger głębiej:** postaw breakpoint i użyj przycisków **Step Over** (przeskocz linię) i **Step Into** (wejdź do środka funkcji). Zobacz, jak panel **Variables** pokazuje wartości na żywo — bez ani jednego `console.log`.
+4. **Napisz własny test:** utwórz plik `moje.test.js` obok i napisz w nim jeden test sprawdzający funkcję z `tools.js` (wzoruj się na `tools.test.js`). Uruchom `node --test moje.test.js`.
+
 ## Gdzie tkliknąłeś próg zaawansowania
 
 Właśnie naprawiłeś trzy błędy, których nie napisałeś, **nie prosząc AI o gotowca** — czytając komunikat, podglądając wartości i zatrzymując kod na breakpoincie. To jest dokładnie to, co odróżnia kogoś, kto „umie kliknąć w AI", od kogoś, komu można powierzyć projekt. W następnym module złożysz to wszystko razem: dołożysz do swojego agenta prawdziwą funkcję — ręcznie.

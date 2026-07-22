@@ -96,6 +96,16 @@ Wyślij **w DM do prowadzącego**:
 1. **link do repo** (ten sam co w Module 1 — sekcja przepływu jest już w `README.md`),
 2. jedno zdanie: „Moduł 2 gotowy" + w którym `plik:linia` siedzi grounding.
 
+## 🚀 Idź dalej (nieobowiązkowe)
+
+Im więcej tras przejdziesz palcem, tym szybciej czytasz każdy nowy projekt:
+
+1. **Policz swoje narzędzia:** znajdź obiekt `tools` w `route.ts` i wypisz **wszystkie** narzędzia agenta wraz z ich `description`. Zdziwisz się, ile już ich masz po Lekcji 7.
+2. **Znajdź osobowość agenta:** wyszukaj (`Ctrl+Shift+F`) system prompt — fragment tekstu, który mówi agentowi, kim jest. Zmień w nim jedno zdanie, odśwież stronę i zobacz, jak zmienia się zachowanie. Potem cofnij (`git restore`).
+3. **Prześledź drugi przepływ:** wybierz **inną** stronę swojego agenta niż czat (np. tę z Lekcji 6 lub 7) i prześledź jej drogę do backendu tak samo jak w kroku 2 tego modułu.
+4. **Skacz jak zawodowiec:** przejdź całą trasę z kroku 2 jeszcze raz, używając wyłącznie `Ctrl+P` (skok do pliku) i `F12` (skok do definicji) — bez ani jednego kliknięcia w drzewo plików.
+5. **Gdzie mieszka baza:** znajdź w projekcie miejsce, gdzie agent łączy się z Supabase. Nie musisz rozumieć zapytań — wystarczy, że wiesz, **gdzie to jest**.
+
 ## Gdzie tkliknąłeś próg zaawansowania
 
 Umiesz teraz wejść w projekt, którego nie pisałeś, i w kilka minut **wskazać palcem, gdzie dzieje się konkretna rzecz** — bez pytania AI. To jest umiejętność, która dzieli „użytkownika AI" od „osoby, która panuje nad kodem". W następnym module wykorzystasz ją, żeby **znaleźć i naprawić błąd** — samodzielnie.

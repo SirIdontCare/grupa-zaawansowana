@@ -103,6 +103,16 @@ Wyślij **w DM do prowadzącego**:
 2. **link do zmergowanego Pull Requesta**,
 3. jedno zdanie: „Moduł 4 (capstone) gotowy".
 
+## 🚀 Idź dalej (nieobowiązkowe)
+
+Masz już pełną pętlę inżyniera — teraz ją pogłębiaj:
+
+1. **Broń się przed złymi danymi:** co zrobi Twoje narzędzie, gdy ktoś poda `people: 0` albo kwotę ujemną? Dopisz walidację i zwróć czytelny komunikat błędu zamiast dziwnej liczby.
+2. **Drugie narzędzie, tym razem bez szkieletu:** wymyśl własne (przelicznik jednostek, licznik słów, generator sluga) i napisz je **od zera**, wzorując się wyłącznie na istniejących. Osobna gałąź, osobny PR.
+3. **Test do własnego kodu:** wyciągnij logikę liczenia do osobnej funkcji i napisz do niej test (technika z Modułu 3). Kod, który ma test, to kod, któremu ufasz.
+4. **Popraw opis agenta:** dopracuj `description` swojego narzędzia i sprawdź, czy agent zaczyna trafniej decydować, kiedy go użyć. To jest inżynieria promptów spotykająca się z kodem.
+5. **Posprzątaj historię:** przejrzyj `git log --oneline` całej ścieżki. Czy z samych opisów commitów da się zrozumieć, co robiłeś? Jeśli nie — wiesz już, jak pisać je lepiej.
+
 ## Gratulacje — skończyłeś Grupę Zaawansowaną 🎉
 
 Przeszedłeś drogę od „wklejam prompty, AI buduje" do:
