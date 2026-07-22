@@ -12,13 +12,14 @@ Pierwszy krok: przesiadka do prawdziwego kokpitu inżyniera — **VS Code**.
 
 > ⚠️ **Wymóg całej ścieżki:** pracujesz w **VS Code + wtyczce z asystentem AI** (GitHub Copilot / Claude Code / Codex). Jeśli kurs główny robiłeś w Codex Desktop czy Antigravity — tutaj przesiadasz się na IDE. **Praca w VS Code to właśnie ta część „zaawansowana".**
 
-> 🛑 **NAJPIERW: pracuj na KOPII, nie na oryginale.** Całą Grupę Zaawansowaną robisz na **kopii swojego agenta w stanie po Lekcji 7**. Główny projekt zostaw nietknięty — na nim dalej pracujesz na zwykłych zajęciach (Lekcje 8–12). Dzięki temu eksperymenty z tej ścieżki (git, refaktor, własne zmiany, debug) **nie rozjadą Ci projektu** z tym, co robicie na lekcjach. Jak zrobić kopię — krok 3 poniżej.
+> 🛑 **NAJPIERW: pracuj na KOPII i na OSOBNEJ BAZIE.** Całą Grupę Zaawansowaną robisz na **kopii swojego agenta w stanie po Lekcji 7**, podpiętej do **własnej, nowej bazy danych**. Główny projekt i jego baza zostają nietknięte — na nich idziesz dalej na zwykłych zajęciach (Lekcje 8–12). Bez tego eksperymenty z tej ścieżki (git, refaktor, debug, własne SQL) **rozwaliłyby Ci kurs**. Jak to ustawić — kroki 3 i 4 poniżej.
 
 ## Cel Modułu 0
 
 Po tym module:
 - masz zainstalowany VS Code + wtyczkę AI,
 - masz **kopię** swojego agenta (stan po Lekcji 7) w osobnym folderze i otwierasz w VS Code właśnie ją,
+- kopia ma **własną, osobną bazę danych** — kurs jest odcięty od Twoich eksperymentów,
 - uruchamiasz agenta **ręcznie z wbudowanego terminala** (bez proszenia AI o start),
 - potrafisz sam znaleźć plik `route.ts` w drzewie projektu.
 
@@ -44,10 +45,27 @@ Zaloguj się w niej swoim kontem. To Twój drugi pilot — zostaje z Tobą do ko
 
 Po lewej, w **Explorerze**, zobaczysz drzewo plików. Od teraz **cała Grupa Zaawansowana dzieje się na tej kopii** — oryginału nie ruszasz, żeby na zajęciach (Lekcje 8–12) nie było rozjazdu.
 
-### 4. Otwórz wbudowany terminal
+### 4. Podepnij OSOBNĄ bazę danych ⚠️
+
+Skopiowałeś folder — ale kopia **nadal celuje w tę samą bazę Supabase**, co Twój projekt z kursu. Gdybyś zostawił to tak, eksperymenty z tej ścieżki (a zwłaszcza własne zapytania SQL) mogłyby **uszkodzić bazę, na której stoi Twój kurs**.
+
+Dlatego kopia dostaje **własną, czystą bazę**:
+
+1. Wejdź na [supabase.com](https://supabase.com) → **New project**. Nazwij go np. `agent-zaawansowany`. Poczekaj, aż się postawi (~1 min).
+2. Odtwórz w nim tabele: otwórz **SQL Editor** i uruchom **te same zapytania SQL, które wykonywałeś na Lekcjach 5 i 6** (masz je w plikach warsztatowych `W1_SUPABASE_SETUP.md` i `W1_PGVECTOR.md`).
+3. W nowym projekcie wejdź w **Settings → API** i skopiuj **Project URL** oraz **anon key**.
+4. W swojej **kopii** projektu otwórz `.env.local` i **podmień wartości** zmiennych Supabase (np. `NEXT_PUBLIC_SUPABASE_URL` i `NEXT_PUBLIC_SUPABASE_ANON_KEY`) na te z nowego projektu.
+
+> 🛑 **Sprawdź dwa razy, że edytujesz `.env.local` w KOPII, nie w oryginale.** Oryginalny projekt musi dalej wskazywać na starą bazę — na nim idziesz na zwykłych zajęciach.
+
+> 💡 Nie chcesz drugiego projektu w Supabase (albo skończył Ci się darmowy limit)? Możesz użyć [Neon](https://neon.tech) — to też darmowy Postgres. Wtedy podmieniasz connection string zamiast kluczy Supabase.
+
+**Od teraz masz pełną izolację: osobny folder + osobna baza.** Cokolwiek zepsujesz w Grupie Zaawansowanej, Twój kurs jest bezpieczny.
+
+### 5. Otwórz wbudowany terminal
 Menu: `Terminal → New Terminal` (albo `` Ctrl+` ``). Na dole pojawi się terminal — i **już jesteś w folderze projektu** (nie musisz robić `cd`).
 
-### 5. Uruchom agenta RĘCZNIE
+### 6. Uruchom agenta RĘCZNIE
 Wpisz kolejno (zatwierdzając Enterem):
 ```bash
 npm install
@@ -55,7 +73,9 @@ npm run dev
 ```
 Poczekaj na adres (np. `http://localhost:3000`). Otwórz go w przeglądarce. **Twój agent działa — uruchomiony Twoją ręką, nie promptem.**
 
-### 6. Znajdź `route.ts` — sam
+Porozmawiaj z nim chwilę i sprawdź w Supabase (nowy projekt → Table Editor), czy dane lądują **w nowej bazie**. Jeśli tak — izolacja działa.
+
+### 7. Znajdź `route.ts` — sam
 W Explorerze rozwiń: `app` → `api` → `chat` → i otwórz **`route.ts`**.
 To jest „mózg" Twojego agenta — plik, do którego w kolejnych modułach będziesz wracał. Na razie tylko go znajdź i otwórz.
 
@@ -64,7 +84,7 @@ To jest „mózg" Twojego agenta — plik, do którego w kolejnych modułach bę
 ## ✅ Samo-weryfikacja (Twój dowód „done")
 
 Zrób **jeden screenshot**, na którym widać naraz:
-1. **drzewo projektu** w Explorerze VS Code (po lewej),
+1. **drzewo projektu** w Explorerze VS Code (po lewej) — z nazwą folderu **kopii**,
 2. otwarty plik **`route.ts`**,
 3. **wbudowany terminal** z działającym `npm run dev` (widoczny adres `localhost`).
 
@@ -72,7 +92,11 @@ Dla pewności, że jesteś we właściwym miejscu, wpisz w terminalu VS Code:
 ```bash
 node -v && npm run dev
 ```
-**Oczekiwany wynik:** wersja Node (v18+) i serwer startujący z adresem `localhost`. Jeśli to widzisz — zaliczone.
+**Oczekiwany wynik:** wersja Node (v18+) i serwer startujący z adresem `localhost`.
+
+**Oraz — dowód izolacji (drugi screenshot):** porozmawiaj chwilę z agentem, a potem pokaż **Table Editor swojego NOWEGO projektu Supabase** z widocznymi świeżymi danymi. To potwierdza, że kopia pisze do własnej bazy, a nie do kursowej.
+
+Jeśli oba się zgadzają — zaliczone.
 
 ## 🤖 Sprawdź się sam przez AI (zanim wyślesz prowadzącemu)
 

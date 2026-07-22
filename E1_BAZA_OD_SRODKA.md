@@ -1,7 +1,11 @@
 # ⭐ EXTRA 1: Twoja baza od środka (SQL)
 
 > ⭐ **Moduł ponadprogramowy** — nieobowiązkowy. Nie jest wymagany do ukończenia Grupy Zaawansowanej.
-> 🔒 **Wymagane wejście:** zaliczony Moduł 2 + agent z bazą Supabase (masz ją po Lekcjach 5–7).
+> 🔒 **Wymagane wejście:** zaliczony Moduł 2 + agent z bazą Supabase.
+
+> 🛑 **STOP — zanim napiszesz choć jedno zapytanie.** Pracujesz **wyłącznie na osobnej bazie**, którą podpiąłeś w [Module 0](W0_KOKPIT.md) (krok 4) — nie na bazie swojego projektu kursowego. SQL nie ma przycisku „cofnij": jedno nieostrożne `delete` na bazie kursu i tracisz pracę z Lekcji 5–7.
+>
+> **Sprawdź teraz:** czy w Supabase masz otwarty projekt `agent-zaawansowany` (ten nowy), a nie kursowy? Jeśli nie masz osobnej bazy — wróć do Modułu 0 i ją załóż. Dopiero potem wracaj tutaj.
 
 ## O co chodzi
 
