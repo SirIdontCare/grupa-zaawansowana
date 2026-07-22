@@ -12,11 +12,13 @@ Pierwszy krok: przesiadka do prawdziwego kokpitu inżyniera — **VS Code**.
 
 > ⚠️ **Wymóg całej ścieżki:** pracujesz w **VS Code + wtyczce z asystentem AI** (GitHub Copilot / Claude Code / Codex). Jeśli kurs główny robiłeś w Codex Desktop czy Antigravity — tutaj przesiadasz się na IDE. **Praca w VS Code to właśnie ta część „zaawansowana".**
 
+> 🛑 **NAJPIERW: pracuj na KOPII, nie na oryginale.** Całą Grupę Zaawansowaną robisz na **kopii swojego agenta w stanie po Lekcji 7**. Główny projekt zostaw nietknięty — na nim dalej pracujesz na zwykłych zajęciach (Lekcje 8–12). Dzięki temu eksperymenty z tej ścieżki (git, refaktor, własne zmiany, debug) **nie rozjadą Ci projektu** z tym, co robicie na lekcjach. Jak zrobić kopię — krok 3 poniżej.
+
 ## Cel Modułu 0
 
 Po tym module:
 - masz zainstalowany VS Code + wtyczkę AI,
-- otwierasz w nim swój projekt agenta z kursu głównego,
+- masz **kopię** swojego agenta (stan po Lekcji 7) w osobnym folderze i otwierasz w VS Code właśnie ją,
 - uruchamiasz agenta **ręcznie z wbudowanego terminala** (bez proszenia AI o start),
 - potrafisz sam znaleźć plik `route.ts` w drzewie projektu.
 
@@ -35,9 +37,12 @@ W VS Code otwórz panel **Extensions** (ikona klocków po lewej albo `Ctrl+Shift
 
 Zaloguj się w niej swoim kontem. To Twój drugi pilot — zostaje z Tobą do końca ścieżki.
 
-### 3. Otwórz swój projekt agenta
-`File → Open Folder…` → wskaż folder swojego agenta z kursu głównego (ten, w którym jest `package.json`).
-Po lewej, w **Explorerze**, zobaczysz drzewo plików całego projektu. To jest mapa Twojego agenta.
+### 3. Skopiuj agenta (stan po Lekcji 7) i otwórz KOPIĘ
+1. Znajdź folder swojego agenta z kursu głównego (ten, w którym jest `package.json`) — w stanie **po Lekcji 7**.
+2. Skopiuj **cały folder** obok i nazwij kopię np. `moj-agent-zaawansowany`. (Nie musisz kopiować `node_modules` — odtworzysz je przez `npm install`.)
+3. W VS Code: `File → Open Folder…` → wskaż **kopię** (`moj-agent-zaawansowany`), **nie oryginał**.
+
+Po lewej, w **Explorerze**, zobaczysz drzewo plików. Od teraz **cała Grupa Zaawansowana dzieje się na tej kopii** — oryginału nie ruszasz, żeby na zajęciach (Lekcje 8–12) nie było rozjazdu.
 
 ### 4. Otwórz wbudowany terminal
 Menu: `Terminal → New Terminal` (albo `` Ctrl+` ``). Na dole pojawi się terminal — i **już jesteś w folderze projektu** (nie musisz robić `cd`).

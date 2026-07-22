@@ -16,6 +16,8 @@ Dla każdego, kto zbudował już aplikację z pomocą asystenta AI i czuje, że 
 
 ## Jak to działa
 
+> 🛑 **Pracujesz na KOPII.** Całą ścieżkę robisz na **kopii swojego agenta w stanie po Lekcji 7**, w osobnym folderze. Główny projekt zostaw nietknięty — na nim idziesz dalej na zwykłych zajęciach, żeby nie było rozjazdu.
+
 Ścieżka jest **samoobsługowa** i idziesz nią własnym tempem:
 
 1. Robisz zadanie z modułu na swoim projekcie.
@@ -32,7 +34,7 @@ Dla każdego, kto zbudował już aplikację z pomocą asystenta AI i czuje, że 
 | **2** | [Czytaj kod, który AI napisało](W2_CZYTANIE_KODU.md) | czytanie kodu, śledzenie przepływu danych |
 | **3** | [Debugowanie bez AI](W3_DEBUG.md) | stack trace, `console.log`, debugger — na projekcie [`debug_agent/`](debug_agent) |
 | **4** | [Capstone: zmiana bez generatora](W4_CAPSTONE.md) | własna funkcja pisana ręcznie + Pull Request |
-| ⭐ | Bonus: trzeci agent z backendem (Python) — **poziom wyżej** | *(w przygotowaniu)* |
+| ⭐ | [Bonus: Twój agent na backendzie w Pythonie](W5_BONUS_PYTHON.md) — **poziom wyżej** | FastAPI, architektura klient–serwer, drugi język |
 
 > ⭐ **Bonus (Python) to osobny, wyższy poziom** — nie część głównej ścieżki, tylko krok ponad nią (inny język, prawdziwy backend). Ukończenie Modułów 0–4 to pełne zaliczenie Grupy Zaawansowanej; bonus jest dla tych, którzy chcą sięgnąć jeszcze wyżej.
 
