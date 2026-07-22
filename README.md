@@ -16,7 +16,7 @@ Dla każdego, kto zbudował już aplikację z pomocą asystenta AI i czuje, że 
 | **Node.js 18+** | uruchamianie agenta | od Modułu 0 |
 | **Git** | wersjonowanie | od Modułu 1 |
 | konto **GitHub** | oddawanie prac | od Modułu 1 |
-| **Python 3.11+** | backend agenta | tylko bonus 🐍 |
+| **Python 3.11+** | backend agenta | 🐍 Ścieżka Pythona |
 
 👉 Wszystkie linki do pobrania: **[NARZEDZIA.md](NARZEDZIA.md)**
 
@@ -110,7 +110,7 @@ Osobne piętro **ponad** ścieżką główną: drugi język, prawdziwy backend i
 
 | # | Moduł | Czego się nauczysz | Trudność |
 |---|---|---|---|
-| **1** | [Twój agent na backendzie w Pythonie](W5_BONUS_PYTHON.md) | FastAPI, architektura klient–serwer, drugi język | 🟢 |
+| **1** | [Twój agent na backendzie w Pythonie](W5_PYTHON_BACKEND.md) | FastAPI, architektura klient–serwer, drugi język | 🟢 |
 | **2** | [Pydantic AI](W6_PYDANTIC_AI.md) | zwalidowana odpowiedź zamiast tekstu (`pydantic` = `zod` w Pythonie) | 🟡 |
 | **3** | [LangGraph](W7_LANGGRAPH.md) | jawna pętla ReAct jako graf — zobacz to, co SDK ukrywało | 🔴 |
 

@@ -1,6 +1,6 @@
 # 🐍 Ścieżka Pythona — Moduł 1: Twój agent na backendzie w Pythonie (FastAPI)
 
-> ⭐ **To jest POZIOM WYŻEJ** — osobny stopień ponad Modułami 0–4, nie ich kolejna część. Ukończenie Modułu 4 to pełne zaliczenie Grupy Zaawansowanej. Ten bonus jest dla tych, którzy chcą sięgnąć piętro wyżej.
+> ⭐ **To jest POZIOM WYŻEJ** — osobny stopień ponad Modułami 0–4, nie ich kolejna część. Ukończenie Modułu 4 to pełne zaliczenie Grupy Zaawansowanej. To pierwszy z trzech modułów Ścieżki Pythona — możesz przerwać ją na dowolnym z nich.
 >
 > 🔒 **Wymagane wejście:** ukończone Moduły 0–4.
 
@@ -18,7 +18,7 @@ Przeglądarka  →  Next.js (frontend, :3000)  →  Python / FastAPI (mózg, :80
 
 ## Cel
 
-Po tym bonusie:
+Po tym module:
 - masz działający **backend w Pythonie**, który rozmawia z Gemini,
 - Twój agent w przeglądarce odpowiada **przez Pythona**, nie przez Next.js,
 - rozumiesz, czym jest osobny serwis, **port**, **CORS**, **venv** i zmienne środowiskowe.
@@ -198,7 +198,7 @@ curl -X POST http://localhost:8000/chat -H "Content-Type: application/json" -d "
 
 ## 🤖 Sprawdź się sam przez AI (zanim wyślesz prowadzącemu)
 
-> *„Zrobiłem bonus: przeniosłem backend agenta do Pythona (FastAPI). Oto mój `main.py`: [wklej].*
+> *„Przeniosłem backend agenta do Pythona (FastAPI). Oto mój `main.py`: [wklej].*
 > *Oceń wg rubryki — PASS/FAIL + jedno zdanie:*
 > *1. Czy klucz API jest wczytywany ze zmiennej środowiskowej, a nie wpisany w kodzie?*
 > *2. Czy CORS jest ustawiony tak, że frontend z localhost:3000 może wołać backend?*
@@ -210,7 +210,7 @@ curl -X POST http://localhost:8000/chat -H "Content-Type: application/json" -d "
 Wypchnij backend jako **osobne repo** (`agent-backend`) — ćwiczysz to, co umiesz z Modułu 1. Potem wyślij **w DM do prowadzącego**:
 1. **link do repo z backendem**,
 2. **screenshot** strony `/python` z odpowiedzią agenta,
-3. jedno zdanie: „Bonus Python gotowy".
+3. jedno zdanie: „Ścieżka Pythona — Moduł 1 gotowy".
 
 ## Chcesz iść jeszcze dalej? (nieobowiązkowe)
 

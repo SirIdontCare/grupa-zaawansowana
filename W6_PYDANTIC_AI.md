@@ -1,6 +1,6 @@
 # 🐍 Ścieżka Pythona — Moduł 2: Pydantic AI (agent, który nie może skłamać o formacie)
 
-> 🔒 **Wymagane wejście:** ukończony [Bonus Python](W5_BONUS_PYTHON.md) — masz działający backend FastAPI.
+> 🔒 **Wymagane wejście:** ukończony [Moduł 1 Ścieżki Pythona](W5_PYTHON_BACKEND.md) — masz działający backend FastAPI.
 
 ## O co chodzi
 

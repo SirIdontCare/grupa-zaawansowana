@@ -13,7 +13,7 @@ Wszystkie narzędzia mają **darmowe plany lub są open source**. Nie potrzebuje
 | **VS Code** | Twoje środowisko pracy — edytor, terminal, git i debugger w jednym | https://code.visualstudio.com | **Moduł 0** (wymóg) |
 | **Node.js** (18+) | uruchamianie agenta, `npm` | https://nodejs.org | Moduł 0 |
 | **Git** | wersjonowanie kodu, cofanie zmian | https://git-scm.com/downloads | Moduł 1 |
-| **Python** (3.11+) | backend agenta | https://www.python.org/downloads | 🐍 tylko bonus |
+| **Python** (3.11+) | backend agenta | https://www.python.org/downloads | 🐍 Ścieżka Pythona |
 
 > ⚠️ **Windows:** przy instalacji Pythona zaznacz **„Add Python to PATH"**, inaczej terminal go nie zobaczy.
 
@@ -80,4 +80,4 @@ Wszystkie narzędzia mają **darmowe plany lub są open source**. Nie potrzebuje
 - **Moduł 1?** → dochodzi Git i konto GitHub.
 - **Moduły 2–4?** → nic nowego, pracujesz na tym, co masz.
 - **Extra 1 (SQL)?** → tylko przeglądarka i Twój **nowy** projekt Supabase.
-- **Bonus 🐍?** → dochodzi Python (+ opcjonalnie Neon).
+- **Ścieżka Pythona 🐍?** → dochodzi Python (+ opcjonalnie Neon). Moduł 2 dokłada `pydantic-ai`, Moduł 3 `langgraph`.

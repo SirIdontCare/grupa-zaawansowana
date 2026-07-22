@@ -152,10 +152,16 @@ Przeszedłeś drogę od „wklejam prompty, AI buduje" do:
 
 To nie jest już „użytkownik AI". To ktoś, kto panuje nad swoim projektem — od pierwszej linijki kodu po działający serwis.
 
-## Chcesz więcej? → Bonus: trzeci agent z backendem (Python) — POZIOM WYŻEJ
+## Chcesz więcej? → 🐍 Ścieżka Pythona — POZIOM WYŻEJ
 
-Skończenie Modułów 0–4 to **pełne ukończenie Grupy Zaawansowanej**. Bonus z Pythonem to **osobny, jeszcze wyższy poziom** — już nie część tej ścieżki, tylko krok ponad nią.
+Skończenie Modułów 0–4 to **pełne ukończenie Grupy Zaawansowanej**. Ścieżka Pythona to **osobne, jeszcze wyższe piętro** — już nie część tej ścieżki, tylko krok ponad nią: drugi język, prawdziwy backend i frameworki agentowe.
 
-Tu budujesz od zera **trzeciego agenta z prawdziwym backendem w Pythonie (FastAPI)** — inny język, inny stack, prawdziwa architektura klient–serwer. To jest w pełni opcjonalne i przeznaczone dla osób, które chcą wyjść poza to, co robiliśmy do tej pory. Plik: `W5_BONUS_PYTHON.md`.
+Trzy moduły, każdy budujący na poprzednim:
 
-> Nie czujesz się na siłach? **Nie musisz.** Ukończenie Modułu 4 to komplet — bonus jest dla tych, którzy chcą sięgnąć piętro wyżej.
+| # | Moduł | Co zrobisz | Trudność |
+|---|---|---|---|
+| **1** | [Twój agent na backendzie w Pythonie](W5_PYTHON_BACKEND.md) | rozdzielisz agenta na frontend (Next.js) i mózg (FastAPI) | 🟢 |
+| **2** | [Pydantic AI](W6_PYDANTIC_AI.md) | agent zwróci **zwalidowany obiekt** zamiast tekstu — `pydantic` to `zod`, który już znasz | 🟡 |
+| **3** | [LangGraph](W7_LANGGRAPH.md) | wyciągniesz **pętlę ReAct z Lekcji 4** na wierzch i narysujesz ją jako graf | 🔴 |
+
+> Nie czujesz się na siłach? **Nie musisz.** Ukończenie Modułu 4 to komplet. Ścieżkę Pythona możesz też **przerwać na dowolnym module** — nawet sam Moduł 1 daje Ci działający backend w drugim języku.
