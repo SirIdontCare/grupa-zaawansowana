@@ -128,6 +128,6 @@ Wyślij **w DM do prowadzącego**: link do repo + zdanie „Extra 1 gotowe".
 2. **Grupowanie:** ile wiadomości przypada na każdą rolę? (`group by role`)
 3. **Zajrzyj do RAG:** jeśli masz tabelę `documents` z Lekcji 6, obejrzyj kolumnę `embedding` — zobaczysz, jak wygląda tekst zamieniony na liczby.
 
-## Gdzie tkliknąłeś próg
+## Gdzie przekroczyłeś próg
 
 SQL to język, którym mówi się do praktycznie każdej bazy danych na świecie — w każdej firmie, w każdym stacku. Umiesz już zadać bazie pytanie zamiast klikać w cudzy panel. To jedna z tych umiejętności, które zostają z Tobą na lata.

@@ -95,7 +95,7 @@ To jest „mózg" Twojego agenta — plik, do którego w kolejnych modułach bę
 
 ## ✅ Samo-weryfikacja (Twój dowód „done")
 
-Zrób **jeden screenshot**, na którym widać naraz:
+**Screenshot 1 — kokpit.** Zrób zrzut, na którym widać naraz:
 1. **drzewo projektu** w Explorerze VS Code (po lewej) — z nazwą folderu **kopii**,
 2. otwarty plik **`route.ts`**,
 3. **wbudowany terminal** z działającym `npm run dev` (widoczny adres `localhost`).
@@ -106,7 +106,7 @@ node -v && npm run dev
 ```
 **Oczekiwany wynik:** wersja Node (v18+) i serwer startujący z adresem `localhost`.
 
-**Oraz — dowód izolacji (drugi screenshot):** porozmawiaj chwilę z agentem, a potem pokaż **Table Editor swojego NOWEGO projektu Supabase** z widocznymi świeżymi danymi. To potwierdza, że kopia pisze do własnej bazy, a nie do kursowej.
+**Screenshot 2 — dowód izolacji.** Porozmawiaj chwilę z agentem, a potem pokaż **Table Editor swojego NOWEGO projektu Supabase** z widocznymi świeżymi danymi. To potwierdza, że kopia pisze do własnej bazy, a nie do kursowej.
 
 Jeśli oba się zgadzają — zaliczone.
 
@@ -114,11 +114,13 @@ Jeśli oba się zgadzają — zaliczone.
 
 Wklej do swojej wtyczki AI ten prompt razem z opisem tego, co zrobiłeś:
 
-> *„Jestem na Module 0 kursu zaawansowanego. Oceń, czy zaliczyłem, wg tej rubryki — odpowiedz PASS albo FAIL + jedno zdanie co poprawić:*
-> *1. Czy uruchomiłem projekt z wbudowanego terminala VS Code (nie z osobnej apki AI)?*
-> *2. Czy serwer wystartował na localhost?*
-> *3. Czy potrafię wskazać, gdzie w drzewie leży app/api/chat/route.ts?*
-> *Oto co zrobiłem: [opisz w 3 zdaniach]"*
+> *„Jestem na Module 0 ścieżki zaawansowanej. Oceń, czy zaliczyłem, wg tej rubryki — odpowiedz PASS albo FAIL + jedno zdanie co poprawić:*
+> *1. Czy pracuję na KOPII projektu, a nie na oryginale z kursu?*
+> *2. Czy usunąłem z kopii folder `.git` (czyli `git remote -v` nic nie pokazuje)?*
+> *3. Czy kopia jest podpięta do NOWEJ, osobnej bazy danych?*
+> *4. Czy uruchomiłem projekt z wbudowanego terminala VS Code (nie z osobnej apki AI)?*
+> *5. Czy potrafię wskazać, gdzie w drzewie leży app/api/chat/route.ts?*
+> *Oto co zrobiłem: [opisz w 5 zdaniach]"*
 
 Jeśli AI zwróci **PASS** — jesteś w domu.
 
@@ -135,6 +137,6 @@ Chcesz wycisnąć z tego modułu więcej? Te ćwiczenia sprawdzisz sam:
 3. **Twardy restart:** zatrzymaj serwer `Ctrl+C`, uruchom ponownie. Zrób to trzy razy, aż przestanie być stresujące — będziesz to robił setki razy.
 4. **Rozejrzyj się:** otwórz `package.json` i znajdź sekcję `"scripts"`. To spis wszystkich komend, jakie Twój projekt potrafi wykonać.
 
-## Gdzie tkliknąłeś próg zaawansowania
+## Gdzie przekroczyłeś próg zaawansowania
 
 Do tej pory ktoś (AI) uruchamiał Twój projekt za Ciebie. Od teraz **robisz to sam, w narzędziu, w którym pracują prawdziwi inżynierowie.** To nie jest drobiazg — to różnica między „umiem kazać AI zbudować apkę" a „umiem tę apkę prowadzić". Reszta ścieżki stoi na tym fundamencie.

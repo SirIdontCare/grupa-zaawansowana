@@ -162,6 +162,6 @@ Git odwdzięcza się za każdą godzinę. Te ćwiczenia sprawdzisz sam:
 4. **Kto to napisał:** `git log --oneline --graph` pokazuje historię jako drzewo. A `git blame nazwa-pliku` pokazuje, kto i kiedy dopisał **każdą linię**. W zespole to codzienność.
 5. **Zadbaj o wizytówkę:** dopisz do `README.md` swojego repo krótki opis projektu. To pierwsza rzecz, którą widzi każdy — łącznie z rekruterem.
 
-## Gdzie tkliknąłeś próg zaawansowania
+## Gdzie przekroczyłeś próg zaawansowania
 
 Masz teraz kopię swojego kodu w chmurze, historię każdej zmiany i umiejętność cofnięcia dowolnej wpadki. To jest różnica między „mam plik na pulpicie i modlę się, żeby AI nic nie zepsuło" a „pracuję jak zespół inżynierski". Od teraz każda Twoja praca to commity — a to Twoje CV widzi jako pierwsze.

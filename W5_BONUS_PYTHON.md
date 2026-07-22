@@ -215,6 +215,6 @@ Wypchnij backend jako **osobne repo** (`agent-backend`) — ćwiczysz to, co umi
 - **Podłącz bazę** — Supabase albo Neon (Postgres) i zapisuj historię rozmów po stronie Pythona.
 - **Wdróż backend** — np. na Railway albo Render, żeby żył w internecie tak jak Twój Next.js na Vercelu.
 
-## Gdzie tkliknąłeś próg
+## Gdzie przekroczyłeś próg
 
 Napisałeś działający serwis w **drugim języku**, rozdzieliłeś aplikację na **frontend i backend** i połączyłeś je przez HTTP. To już nie jest „kurs o agentach AI" — to jest **inżynieria oprogramowania**. Gratulacje. 🐍

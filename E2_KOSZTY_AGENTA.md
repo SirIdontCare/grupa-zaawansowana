@@ -118,6 +118,6 @@ Wyślij **w DM do prowadzącego**: link do repo + zdanie „Extra 2 gotowe".
 2. **Przycinaj historię** — wysyłaj do modelu tylko ostatnie 10 wiadomości zamiast całej rozmowy. Zobacz, jak zmienia się zachowanie agenta.
 3. **Zaloguj zużycie** — przy każdej odpowiedzi wypisz w konsoli serwera, ile tokenów zużyto (SDK zwraca tę informację).
 
-## Gdzie tkliknąłeś próg
+## Gdzie przekroczyłeś próg
 
 Umiesz teraz spojrzeć na cudzy projekt AI i w kilka minut odpowiedzieć na pytanie, które pada w każdej firmie: **„ile to będzie kosztować i gdzie nam ucieka?"**. To jest myślenie inżyniera odpowiedzialnego za system, a nie osoby, która „coś tam zbudowała".

@@ -106,6 +106,6 @@ Im więcej tras przejdziesz palcem, tym szybciej czytasz każdy nowy projekt:
 4. **Skacz jak zawodowiec:** przejdź całą trasę z kroku 2 jeszcze raz, używając wyłącznie `Ctrl+P` (skok do pliku) i `F12` (skok do definicji) — bez ani jednego kliknięcia w drzewo plików.
 5. **Gdzie mieszka baza:** znajdź w projekcie miejsce, gdzie agent łączy się z Supabase. Nie musisz rozumieć zapytań — wystarczy, że wiesz, **gdzie to jest**.
 
-## Gdzie tkliknąłeś próg zaawansowania
+## Gdzie przekroczyłeś próg zaawansowania
 
 Umiesz teraz wejść w projekt, którego nie pisałeś, i w kilka minut **wskazać palcem, gdzie dzieje się konkretna rzecz** — bez pytania AI. To jest umiejętność, która dzieli „użytkownika AI" od „osoby, która panuje nad kodem". W następnym module wykorzystasz ją, żeby **znaleźć i naprawić błąd** — samodzielnie.

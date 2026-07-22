@@ -100,6 +100,6 @@ Debugowanie to mięsień — rośnie tylko od powtórzeń:
 3. **Poznaj debugger głębiej:** postaw breakpoint i użyj przycisków **Step Over** (przeskocz linię) i **Step Into** (wejdź do środka funkcji). Zobacz, jak panel **Variables** pokazuje wartości na żywo — bez ani jednego `console.log`.
 4. **Napisz własny test:** utwórz plik `moje.test.js` obok i napisz w nim jeden test sprawdzający funkcję z `tools.js` (wzoruj się na `tools.test.js`). Uruchom `node --test moje.test.js`.
 
-## Gdzie tkliknąłeś próg zaawansowania
+## Gdzie przekroczyłeś próg zaawansowania
 
 Właśnie naprawiłeś trzy błędy, których nie napisałeś, **nie prosząc AI o gotowca** — czytając komunikat, podglądając wartości i zatrzymując kod na breakpoincie. To jest dokładnie to, co odróżnia kogoś, kto „umie kliknąć w AI", od kogoś, komu można powierzyć projekt. W następnym module złożysz to wszystko razem: dołożysz do swojego agenta prawdziwą funkcję — ręcznie.
