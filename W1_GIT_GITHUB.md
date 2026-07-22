@@ -86,9 +86,9 @@ Możesz też używać panelu **Source Control** w VS Code (ikona gałęzi po lew
 4. Wybierz **„Publish to GitHub public repository"** (kod jest bezpieczny — klucze zostały w `.env.local`, który git ignoruje).
 5. VS Code zaloguje Cię do GitHuba i wypchnie repo.
 
-> 🛑 **Nie wdrażaj tej kopii na Vercel.** Twój kursowy agent jest podpięty na Vercelu do **repo kursowego** i sam się przebudowuje po każdym pushu. Kopia ma **własne, nowe repo**, więc niczego nie ruszy — pod warunkiem że nie podepniesz jej do istniejącego projektu na Vercelu. W Grupie Zaawansowanej **wszystko robisz lokalnie** (`npm run dev`); deploy nie jest częścią tej ścieżki.
+> 🛑 **Nowe repo = warunek bezpieczeństwa.** Twój kursowy agent jest podpięty na Vercelu do **repo kursowego** i przebudowuje się sam po każdym pushu. Dlatego kopia musi mieć **własne, nowe repo** — wtedy nic, co tu robisz, nie ruszy Twojej kursowej wersji w internecie.
 >
-> Bardzo chcesz mieć kopię w internecie? Zrób **osobny projekt na Vercelu** z nowego repo i wpisz mu **zmienne środowiskowe nowej bazy**. Projektu kursowego nie dotykaj.
+> Swojego zaawansowanego agenta **też wdrożysz** — ale jako **osobny projekt na Vercelu**, w [Module 4](W4_CAPSTONE.md). Do tego czasu pracujesz lokalnie (`npm run dev`). Istniejącego projektu kursowego na Vercelu **nigdy nie dotykasz**.
 
 > Wolisz prywatne repo? Wybierz „private" — tylko wtedy **dodaj prowadzącego jako collaborator** (Settings → Collaborators), inaczej nie otworzy linku.
 

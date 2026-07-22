@@ -29,7 +29,8 @@ Dla każdego, kto zbudował już aplikację z pomocą asystenta AI i czuje, że 
 > 🛑 **Pełna izolacja od kursu — to warunek wejścia.** Całą ścieżkę robisz na **kopii swojego agenta po Lekcji 7**, która ma:
 > - **osobny folder** (z usuniętym `.git`, żeby nie ciągnąć powiązania z repo kursowym),
 > - **osobną bazę danych** (nowy projekt Supabase / Neon),
-> - **osobne repo na GitHubie** i **żadnego deployu** — pracujesz lokalnie (`npm run dev`).
+> - **osobne repo na GitHubie**,
+> - **osobny projekt na Vercelu** (w Module 4) — Twój zaawansowany agent żyje **obok** kursowego, nie zamiast niego.
 >
 > Twój projekt kursowy, jego baza i jego wersja na Vercelu zostają **nietknięte** — na nich idziesz dalej na zwykłych zajęciach. Bez tej izolacji eksperymenty z tej ścieżki potrafią rozwalić kurs.
 
@@ -92,7 +93,7 @@ W dwóch modułach (**3 — debugowanie** i **4 — capstone**) celowo przykręc
 | **2** | [Czytaj kod, który AI napisało](W2_CZYTANIE_KODU.md) | czytanie kodu, śledzenie przepływu danych |
 | **2.5** | [Elementarz kodu](W2.5_ELEMENTARZ_KODU.md) | zmienne, funkcje, `if`, `return` — rozgrzewka, ~30 min |
 | **3** | [Debugowanie bez AI](W3_DEBUG.md) | stack trace, `console.log`, debugger — na projekcie [`debug_agent/`](debug_agent) |
-| **4** | [Capstone: zmiana bez generatora](W4_CAPSTONE.md) | własna funkcja pisana ręcznie + Pull Request |
+| **4** | [Capstone: zmiana bez generatora](W4_CAPSTONE.md) | własna funkcja ręcznie + Pull Request + **własny deploy na Vercelu** |
 
 **Ukończenie Modułów 0–4 = pełne zaliczenie Grupy Zaawansowanej.** Każdy moduł ma na końcu sekcję **„Idź dalej"** z dodatkowymi ćwiczeniami dla chętnych.
 

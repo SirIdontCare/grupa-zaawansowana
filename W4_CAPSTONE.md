@@ -14,7 +14,8 @@ Po tym module:
 - dodałeś do agenta **nowe narzędzie**, pisząc je samodzielnie,
 - agent faktycznie go używa (widać to w przeglądarce),
 - zrobiłeś to na **osobnej gałęzi** i przez **Pull Request** na GitHubie,
-- potrafisz opisać w PR, **co** dodałeś i **jak** to działa.
+- potrafisz opisać w PR, **co** dodałeś i **jak** to działa,
+- **wdrożyłeś swojego zaawansowanego agenta** jako osobny projekt na Vercelu — masz go pod własnym adresem w internecie.
 
 ## Zadanie: narzędzie „Podziel rachunek"
 
@@ -81,11 +82,35 @@ Wejdź na swoje repo na GitHubie — pojawi się żółty pasek **„Compare & p
 
 Kliknij **Create pull request**, a potem **Merge pull request** → **Confirm merge**.
 
+### 7. Wdróż swojego zaawansowanego agenta — na WŁASNY projekt Vercel
+
+Twoja zmiana jest w gałęzi głównej. Czas wypuścić ją do internetu — jako **drugiego, niezależnego agenta**, obok Twojej wersji kursowej.
+
+> 🛑 **Absolutnie kluczowe:** tworzysz **NOWY projekt** na Vercelu z **nowego repo**. Nie otwierasz istniejącego projektu kursowego i nie przepinasz go na inne repo — inaczej nadpiszesz swojego kursowego agenta.
+
+1. Wejdź na [vercel.com](https://vercel.com) → **Add New… → Project**.
+2. Z listy repozytoriów wybierz **swoje nowe repo** (`moj-agent-zaawansowany`), nie kursowe. Kliknij **Import**.
+3. **Zanim klikniesz Deploy**, rozwiń **Environment Variables** i dodaj **wszystkie** zmienne ze swojego lokalnego `.env.local`:
+   ```
+   GOOGLE_GENERATIVE_AI_API_KEY   → Twój klucz z AI Studio
+   NEXT_PUBLIC_SUPABASE_URL       → URL NOWEJ bazy (nie kursowej!)
+   NEXT_PUBLIC_SUPABASE_ANON_KEY  → anon key NOWEJ bazy
+   ```
+   > 💡 To jest moment, w którym rozumiesz, po co istnieje `.env.local`: plik **nigdy** nie trafił do repo (blokuje go `.gitignore`), więc serwer produkcyjny **nie zna** Twoich kluczy, dopóki sam mu ich nie podasz. Tak działa to w każdej prawdziwej firmie.
+4. Kliknij **Deploy** i poczekaj (~1–2 min).
+5. Dostajesz publiczny adres typu `moj-agent-zaawansowany.vercel.app`. **Otwórz go i przetestuj narzędzie**: *„Podziel 240 zł na 4 osoby z napiwkiem 10%"*.
+
+> ⚠️ Jeśli na produkcji wyskakuje błąd, a lokalnie działało — w 9 na 10 przypadków to **brakująca zmienna środowiskowa**. Vercel → Twój projekt → **Settings → Environment Variables**, uzupełnij i zrób **Redeploy**. Logi błędów znajdziesz w zakładce **Logs** (przyda się Moduł 3!).
+
+Od teraz każdy `git push` do gałęzi głównej **automatycznie przebuduje** tę wersję. Twój kursowy agent stoi na osobnym projekcie i osobnym repo — nic mu się nie stanie.
+
 ## ✅ Samo-weryfikacja (Twój dowód „done")
 
-- Agent w przeglądarce poprawnie dzieli rachunek (66 zł/os. dla przykładu wyżej).
+- Agent lokalnie poprawnie dzieli rachunek (66 zł/os. dla przykładu wyżej).
 - Na GitHubie masz **zmergowany Pull Request** z sensownym opisem.
 - Zmiana jest w gałęzi głównej repo.
+- **Agent działa pod własnym adresem `.vercel.app`** — i jest to **inny projekt** niż Twój kursowy.
+- Wersja produkcyjna korzysta z **nowej bazy**, nie kursowej.
 
 ## 🤖 Sprawdź się sam przez AI (zanim wyślesz prowadzącemu)
 
@@ -94,14 +119,16 @@ Wklej do wtyczki AI swój kod narzędzia + opis PR:
 > *„Jestem na Module 4 (capstone). Dodałem ręcznie narzędzie do agenta. Oto kod: [wklej splitBill] i opis PR: [wklej]. Oceń wg rubryki — PASS/FAIL + jedno zdanie:*
 > *1. Czy narzędzie ma poprawny `inputSchema` (zod) i sensowny `description`?*
 > *2. Czy `execute` liczy poprawnie (napiwek + podział) i zabezpiecza dzielenie przez zero?*
-> *3. Czy opis PR własnymi słowami wyjaśnia, co i jak działa (a nie wygląda na wygenerowany w całości)?"*
+> *3. Czy opis PR własnymi słowami wyjaśnia, co i jak działa (a nie wygląda na wygenerowany w całości)?*
+> *4. Czy wdrożyłem to jako OSOBNY projekt na Vercelu, ze zmiennymi środowiskowymi NOWEJ bazy — nie ruszając projektu kursowego?"*
 
 ## Jak oddać
 
 Wyślij **w DM do prowadzącego**:
 1. **link do repo**,
 2. **link do zmergowanego Pull Requesta**,
-3. jedno zdanie: „Moduł 4 (capstone) gotowy".
+3. **link do działającego agenta** (`…vercel.app`),
+4. jedno zdanie: „Moduł 4 (capstone) gotowy".
 
 ## 🚀 Idź dalej (nieobowiązkowe)
 
@@ -120,9 +147,10 @@ Przeszedłeś drogę od „wklejam prompty, AI buduje" do:
 - wersjonowania i współpracy przez git + GitHub + Pull Requesty,
 - czytania cudzego kodu i wskazywania palcem, gdzie co jest,
 - łapania i naprawiania błędów bez podpowiadacza,
-- **napisania własnej funkcji ręcznie i wdrożenia jej jak inżynier.**
+- napisania własnej funkcji **ręcznie**,
+- **wdrożenia jej na produkcję** — masz teraz **drugiego, własnego agenta w internecie**, pod swoim adresem, na swojej bazie.
 
-To nie jest już „użytkownik AI". To ktoś, kto panuje nad swoim projektem.
+To nie jest już „użytkownik AI". To ktoś, kto panuje nad swoim projektem — od pierwszej linijki kodu po działający serwis.
 
 ## Chcesz więcej? → Bonus: trzeci agent z backendem (Python) — POZIOM WYŻEJ
 
