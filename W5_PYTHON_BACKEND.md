@@ -118,7 +118,7 @@ def chat(req: ChatRequest):
     return {"reply": response.text}
 ```
 
-Przeczytaj ten plik linijka po linijce — rozumiesz już z Modułu 2, jak śledzić kod. Zwróć uwagę na trzy rzeczy: **model danych** (`ChatRequest`), **endpoint** (`@app.post("/chat")`) i **CORS**.
+Przeczytaj ten plik linijka po linijce — rozumiesz już z Modułu 2A, jak śledzić kod. Zwróć uwagę na trzy rzeczy: **model danych** (`ChatRequest`), **endpoint** (`@app.post("/chat")`) i **CORS**.
 
 ### 6. Uruchom backend
 ```bash

@@ -30,7 +30,7 @@ git checkout -b feature/split-bill
 Od teraz pracujesz „na boku", nie ruszając głównej wersji.
 
 ### 2. Znajdź, gdzie mieszkają narzędzia
-Otwórz `app/api/chat/route.ts` (umiesz to z Modułu 2). Znajdź obiekt `tools: { ... }` — to tam siedzą kalkulator, data/czas itd. **Przeczytaj narzędzie `calculator`** — będzie Twoim wzorem. Zwróć uwagę na jego trzy części:
+Otwórz `app/api/chat/route.ts` (umiesz to z Modułu 2A). Znajdź obiekt `tools: { ... }` — to tam siedzą kalkulator, data/czas itd. **Przeczytaj narzędzie `calculator`** — będzie Twoim wzorem. Zwróć uwagę na jego trzy części:
 - `description` — kiedy agent ma go użyć,
 - `inputSchema` — jakie dane przyjmuje (zod),
 - `execute` — co robi i co zwraca.

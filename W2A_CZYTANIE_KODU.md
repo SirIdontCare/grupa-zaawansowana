@@ -1,4 +1,4 @@
-# Grupa Zaawansowana — Moduł 2: Czytaj kod, który AI napisało
+# Grupa Zaawansowana — Moduł 2A: Czytaj kod, który AI napisało
 
 > 🔒 **Wymagane wejście:** zaliczony Moduł 1 (repo na GitHubie).
 
@@ -76,7 +76,7 @@ W `README.md` masz sekcję z przepływem, a w niej:
 Zacommituj i wypchnij:
 ```bash
 git add README.md
-git commit -m "Moduł 2: opis przepływu wiadomości w agencie"
+git commit -m "Moduł 2A: opis przepływu wiadomości w agencie"
 git push
 ```
 
@@ -84,7 +84,7 @@ git push
 
 Wklej do wtyczki AI treść swojej sekcji z README + poproś:
 
-> *„Jestem na Module 2 (czytanie kodu). Oto mój opis przepływu wiadomości w agencie: [wklej]. Oceń wg rubryki — PASS/FAIL + jedno zdanie:*
+> *„Jestem na Module 2A (czytanie kodu). Oto mój opis przepływu wiadomości w agencie: [wklej]. Oceń wg rubryki — PASS/FAIL + jedno zdanie:*
 > *1. Czy poprawnie wskazałem plik interfejsu i plik backendu (`route.ts`)?*
 > *2. Czy poprawnie wskazałem `plik:linia`, gdzie włącza się grounding?*
 > *3. Czy opisałem, od czego grounding zależy (sztywne true czy zmienna środowiskowa)?*
@@ -94,7 +94,7 @@ Wklej do wtyczki AI treść swojej sekcji z README + poproś:
 
 Wyślij **w DM do prowadzącego**:
 1. **link do repo** (ten sam co w Module 1 — sekcja przepływu jest już w `README.md`),
-2. jedno zdanie: „Moduł 2 gotowy" + w którym `plik:linia` siedzi grounding.
+2. jedno zdanie: „Moduł 2A gotowy" + w którym `plik:linia` siedzi grounding.
 
 ## 🚀 Idź dalej (nieobowiązkowe)
 

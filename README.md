@@ -90,8 +90,8 @@ W dwóch modułach (**3 — debugowanie** i **4 — capstone**) celowo przykręc
 |---|---|---|
 | **0** | [Kokpit: VS Code, koniec z autopilotem](W0_KOKPIT.md) | VS Code, terminal, uruchomienie projektu ręcznie |
 | **1** | [Wersjonowanie jak inżynier](W1_GIT_GITHUB.md) | git + GitHub, commity, cofanie zmian |
-| **2** | [Czytaj kod, który AI napisało](W2_CZYTANIE_KODU.md) | czytanie kodu, śledzenie przepływu danych |
-| **2.5** | [Elementarz kodu](W2_ELEMENTARZ_KODU.md) | zmienne, funkcje, `if`, `return` — rozgrzewka, ~30 min |
+| **2A** | [Czytaj kod, który AI napisało](W2A_CZYTANIE_KODU.md) | czytanie kodu, śledzenie przepływu danych |
+| **2B** | [Elementarz kodu](W2B_ELEMENTARZ_KODU.md) | zmienne, funkcje, `if`, `return` — rozgrzewka, ~30 min |
 | **3** | [Debugowanie bez AI](W3_DEBUG.md) | stack trace, `console.log`, debugger — na projekcie [`debug_agent/`](debug_agent) |
 | **4** | [Capstone: zmiana bez generatora](W4_CAPSTONE.md) | własna funkcja ręcznie + Pull Request + **własny deploy na Vercelu** |
 

@@ -1,6 +1,6 @@
 # Grupa Zaawansowana — Moduł 3: Debugowanie bez AI
 
-> 🔒 **Wymagane wejście:** zaliczony Moduł 2 (opis przepływu w README).
+> 🔒 **Wymagane wejście:** zaliczony Moduł 2A (opis przepływu w README).
 
 ## O co chodzi
 

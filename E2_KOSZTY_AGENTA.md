@@ -1,7 +1,7 @@
 # ⭐ EXTRA 2: Panuj nad kosztami agenta
 
 > ⭐ **Moduł ponadprogramowy** — nieobowiązkowy. Nie jest wymagany do ukończenia Grupy Zaawansowanej.
-> 🔒 **Wymagane wejście:** zaliczony Moduł 2 (musisz umieć znaleźć rzeczy w kodzie).
+> 🔒 **Wymagane wejście:** zaliczony Moduł 2A (musisz umieć znaleźć rzeczy w kodzie).
 
 ## O co chodzi
 

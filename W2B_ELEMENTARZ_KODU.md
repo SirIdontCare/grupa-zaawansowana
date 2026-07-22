@@ -1,11 +1,11 @@
-# Grupa Zaawansowana — Moduł 2.5: Elementarz kodu (rozgrzewka przed debugowaniem)
+# Grupa Zaawansowana — Moduł 2B: Elementarz kodu (rozgrzewka przed debugowaniem)
 
-> 🔒 **Wymagane wejście:** zaliczony Moduł 2.
+> 🔒 **Wymagane wejście:** zaliczony Moduł 2A.
 > ⏱️ **~30 minut. Nic nie oddajesz** — to rozgrzewka, nie zadanie.
 
 ## O co chodzi
 
-W Module 2 **znajdowałeś** kod — wiesz już, gdzie co leży. W Module 3 będziesz go **poprawiał**. Między jednym a drugim jest przepaść: żeby coś naprawić, musisz rozumieć, **co robi pojedyncza linijka**.
+W Module 2A **znajdowałeś** kod — wiesz już, gdzie co leży. W Module 3 będziesz go **poprawiał**. Między jednym a drugim jest przepaść: żeby coś naprawić, musisz rozumieć, **co robi pojedyncza linijka**.
 
 Kurs główny nigdy nie uczył składni — bo nie musiał, AI pisało wszystko. Ten moduł zasypuje tę dziurę. **Nie będziesz nic pisał.** Nauczysz się tylko *czytać*.
 

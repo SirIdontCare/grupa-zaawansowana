@@ -1,7 +1,7 @@
 # ⭐ EXTRA 1: Twoja baza od środka (SQL)
 
 > ⭐ **Moduł ponadprogramowy** — nieobowiązkowy. Nie jest wymagany do ukończenia Grupy Zaawansowanej.
-> 🔒 **Wymagane wejście:** zaliczony Moduł 2 + agent z bazą Supabase.
+> 🔒 **Wymagane wejście:** zaliczony Moduł 2A + agent z bazą Supabase.
 
 > 🛑 **STOP — zanim napiszesz choć jedno zapytanie.** Pracujesz **wyłącznie na osobnej bazie**, którą podpiąłeś w [Module 0](W0_KOKPIT.md) (krok 4) — nie na bazie swojego projektu kursowego. SQL nie ma przycisku „cofnij": jedno nieostrożne `delete` na bazie kursu i tracisz pracę z Lekcji 5–7.
 >
@@ -62,7 +62,7 @@ limit 20;
 ```
 *„...ale tylko te wiersze, gdzie kolumna `role` równa się `user`"*.
 
-> W SQL teksty są w **pojedynczych** cudzysłowach: `'user'`. Do porównania wystarczy jedno `=` (inaczej niż `===` w JavaScripcie z Modułu 2.5).
+> W SQL teksty są w **pojedynczych** cudzysłowach: `'user'`. Do porównania wystarczy jedno `=` (inaczej niż `===` w JavaScripcie z Modułu 2B).
 
 ### 5. Sortowanie i liczenie
 Najnowsze na górze:
