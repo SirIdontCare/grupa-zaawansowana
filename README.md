@@ -8,27 +8,78 @@ Autorska ścieżka dla osób, które chcą przestać *zlecać* AI budowanie apli
 
 Dla każdego, kto zbudował już aplikację z pomocą asystenta AI i czuje, że chce **naprawdę** zapanować nad tym, co powstaje pod spodem.
 
-## Wymagania
+## Czego potrzebujesz
 
-- **VS Code + wtyczka z asystentem AI** (GitHub Copilot / Claude Code / Codex) — wymóg.
-- **Node.js 18+**, **Git**, konto **GitHub**.
-- (Bonus) **Python 3.11+** — do modułu z backendem.
+| Narzędzie | Po co | Kiedy |
+|---|---|---|
+| **VS Code** + **wtyczka AI** (Copilot / Claude Code / Codex) | Twoje środowisko pracy | **wymóg od Modułu 0** |
+| **Node.js 18+** | uruchamianie agenta | od Modułu 0 |
+| **Git** | wersjonowanie | od Modułu 1 |
+| konto **GitHub** | oddawanie prac | od Modułu 1 |
+| **Python 3.11+** | backend agenta | tylko bonus 🐍 |
 
-## Jak to działa
+👉 Wszystkie linki do pobrania: **[NARZEDZIA.md](NARZEDZIA.md)**
+
+---
+
+## 🚀 Jak korzystać z tych warsztatów
+
+### Krok 1: Przygotuj bezpieczną piaskownicę
 
 > 🛑 **Pełna izolacja od kursu — to warunek wejścia.** Całą ścieżkę robisz na **kopii swojego agenta po Lekcji 7**, która ma:
 > - **osobny folder** (z usuniętym `.git`, żeby nie ciągnąć powiązania z repo kursowym),
 > - **osobną bazę danych** (nowy projekt Supabase / Neon),
 > - **osobne repo na GitHubie** i **żadnego deployu** — pracujesz lokalnie (`npm run dev`).
 >
-> Twój projekt kursowy, jego baza i jego wersja na Vercelu zostają **nietknięte** — na nich idziesz dalej na zwykłych zajęciach. Bez tej izolacji eksperymenty z tej ścieżki potrafią rozwalić kurs. Wszystko ustawiasz w [Module 0](W0_KOKPIT.md) i [Module 1](W1_GIT_GITHUB.md).
+> Twój projekt kursowy, jego baza i jego wersja na Vercelu zostają **nietknięte** — na nich idziesz dalej na zwykłych zajęciach. Bez tej izolacji eksperymenty z tej ścieżki potrafią rozwalić kurs.
 
-Ścieżka jest **samoobsługowa** i idziesz nią własnym tempem:
+Konfigurację przechodzisz krok po kroku w **[Module 0](W0_KOKPIT.md)** (kopia + baza) i **[Module 1](W1_GIT_GITHUB.md)** (repo). Nie pomijaj tego.
 
-1. Robisz zadanie z modułu na swoim projekcie.
-2. Sprawdzasz się sam — wklejasz swój kod + dołączoną rubrykę do swojej wtyczki AI (PASS/FAIL).
-3. Oddajesz dowód: **Moduł 0** — screenshot, **od Modułu 1** — link do repo na GitHubie.
-4. **Moduł 0 to bilet wstępu** — kto go przejdzie, idzie dalej.
+### Krok 2: Idź modułami po kolei
+
+Moduły są **ułożone w kolejności** — każdy zakłada umiejętności z poprzedniego. Zacznij od **Modułu 0** (to bilet wstępu) i idź po numerach. Nie przeskakuj.
+
+### Krok 3: Pracuj każdym modułem w tym samym rytmie
+
+Każdy plik modułu ma zawsze tę samą budowę — pracujesz nią cztery kroki:
+
+| | Etap | Co robisz |
+|---|---|---|
+| 1️⃣ | **Przeczytaj** „O co chodzi" i „Cel" | wiesz, po co to robisz |
+| 2️⃣ | **Wykonaj „Kroki"** na swoim projekcie | tu dzieje się nauka |
+| 3️⃣ | **✅ Samo-weryfikacja** | uruchamiasz podaną komendę / robisz screenshot |
+| 4️⃣ | **🤖 Sprawdź się przez AI** | wklejasz swój kod + gotową rubrykę do wtyczki → dostajesz PASS/FAIL |
+
+Na końcu każdego modułu jest jeszcze **🚀 „Idź dalej"** — dodatkowe ćwiczenia dla chętnych. Nieobowiązkowe, ale to w nich siedzi największy przyrost.
+
+### Krok 4: Oddaj pracę
+
+Wszystko wysyłasz **prywatną wiadomością (DM) do prowadzącego na Discordzie** — nie na kanał publiczny.
+
+| Moduł | Co wysyłasz |
+|---|---|
+| **Moduł 0** | 2 screenshoty (VS Code z działającym agentem + nowa baza z danymi) |
+| **Moduł 1 i dalej** | **link do swojego repo na GitHubie** + zdanie „Moduł X gotowy" |
+
+To wciąż to samo repo — kolejne moduły po prostu dopychasz commitami, a postęp widać w historii. Jeden link starcza do końca ścieżki.
+
+### Krok 5: Gdy utkniesz
+
+1. **Przeczytaj komunikat błędu** — serio, jest w nim odpowiedź częściej, niż myślisz (Moduł 3 uczy właśnie tego).
+2. **Zapytaj swoją wtyczkę AI o wyjaśnienie**, nie o gotowca:
+   > *„Wytłumacz mi ten błąd krok po kroku, jakbym nigdy nie programował: [wklej błąd]"*
+3. **Dopiero potem** pisz do prowadzącego — z konkretem: co robisz, co widzisz, screenshot.
+
+---
+
+## 🤖 Ważne: asystent AI zostaje z Tobą
+
+Ta ścieżka **nie zabiera Ci AI** — zmienia mu rolę.
+
+- **Na kursie głównym** AI było **autopilotem**: wklejałeś prompt, dostawałeś gotową aplikację.
+- **Tutaj** AI jest **drugim pilotem** w Twoim IDE: podpowiada linie, tłumaczy kod, sprawdza Twoją pracę. Ale to **Ty prowadzisz**.
+
+W dwóch modułach (**3 — debugowanie** i **4 — capstone**) celowo przykręcamy asystenta: najpierw znajdź/napisz **sam**, a AI użyj dopiero **do sprawdzenia**. Nie dlatego, że AI jest złe — tylko dlatego, że inaczej niczego się nie nauczysz.
 
 ## Mapa ścieżki
 
