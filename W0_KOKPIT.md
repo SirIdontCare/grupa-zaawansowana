@@ -64,9 +64,17 @@ Skopiowałeś folder — ale kopia **nadal celuje w tę samą bazę Supabase**, 
 Dlatego kopia dostaje **własną, czystą bazę**:
 
 1. Wejdź na [supabase.com](https://supabase.com) → **New project**. Nazwij go np. `agent-zaawansowany`. Poczekaj, aż się postawi (~1 min).
-2. Odtwórz w nim tabele: otwórz **SQL Editor** i uruchom **te same zapytania SQL, które wykonywałeś na Lekcjach 5 i 6** (masz je w plikach warsztatowych `W1_SUPABASE_SETUP.md` i `W1_PGVECTOR.md`).
+2. **Odtwórz tabele** — otwórz **SQL Editor** i uruchom te same zapytania SQL, które wykonywałeś na Lekcjach 5 i 6 (pliki `W1_SUPABASE_SETUP.md` i `W1_PGVECTOR.md` z materiałów kursu).
+   Powinny powstać te same tabele co w kursie: **`conversations`**, **`messages`**, **`user_profiles`**, a jeśli robiłeś Lekcję 6 — również **`documents`** z rozszerzeniem `pgvector`.
 3. W nowym projekcie wejdź w **Settings → API** i skopiuj **Project URL** oraz **anon key**.
-4. W swojej **kopii** projektu otwórz `.env.local` i **podmień wartości** zmiennych Supabase (np. `NEXT_PUBLIC_SUPABASE_URL` i `NEXT_PUBLIC_SUPABASE_ANON_KEY`) na te z nowego projektu.
+4. W swojej **kopii** projektu otwórz `.env.local` i **podmień wartości** na te z nowego projektu:
+   ```
+   NEXT_PUBLIC_SUPABASE_URL=https://TU_ID_NOWEGO_PROJEKTU.supabase.co
+   NEXT_PUBLIC_SUPABASE_ANON_KEY=TU_ANON_KEY_Z_NOWEGO_PROJEKTU
+   ```
+   Klucz do modelu (`GOOGLE_GENERATIVE_AI_API_KEY`) zostaje **bez zmian** — to ten sam klucz co w kursie.
+
+> 📄 **Nie wiesz, co dokładnie ma być w `.env.local`?** W tym repo jest gotowy wzór: **[`.env.local.example`](.env.local.example)** — z opisem każdej zmiennej i miejscem na Twoje wartości. Skopiuj go do folderu kopii jako `.env.local` i uzupełnij.
 
 > 🛑 **Sprawdź dwa razy, że edytujesz `.env.local` w KOPII, nie w oryginale.** Oryginalny projekt musi dalej wskazywać na starą bazę — na nim idziesz na zwykłych zajęciach.
 
