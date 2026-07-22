@@ -1,4 +1,4 @@
-# ⭐ BONUS: Twój agent na backendzie w Pythonie (FastAPI)
+# 🐍 Ścieżka Pythona — Moduł 1: Twój agent na backendzie w Pythonie (FastAPI)
 
 > ⭐ **To jest POZIOM WYŻEJ** — osobny stopień ponad Modułami 0–4, nie ich kolejna część. Ukończenie Modułu 4 to pełne zaliczenie Grupy Zaawansowanej. Ten bonus jest dla tych, którzy chcą sięgnąć piętro wyżej.
 >
@@ -126,6 +126,7 @@ uvicorn main:app --reload --port 8000
 ```
 
 > 💡 **Windows:** jeśli w konsoli zamiast polskich znaków widzisz krzaki (`dzia�am`), to tylko kwestia kodowania terminala — odpowiedź jest poprawna. W przeglądarce wyświetli się prawidłowo.
+
 Wejdź na **http://localhost:8000/docs** — FastAPI sam generuje interaktywną dokumentację. Rozwiń `POST /chat`, kliknij **Try it out**, wpisz wiadomość i **Execute**.
 
 Jeśli dostajesz odpowiedź — **Twój agent myśli już w Pythonie.** 🎉
@@ -220,3 +221,11 @@ Wypchnij backend jako **osobne repo** (`agent-backend`) — ćwiczysz to, co umi
 ## Gdzie przekroczyłeś próg
 
 Napisałeś działający serwis w **drugim języku**, rozdzieliłeś aplikację na **frontend i backend** i połączyłeś je przez HTTP. To już nie jest „kurs o agentach AI" — to jest **inżynieria oprogramowania**. Gratulacje. 🐍
+
+---
+
+## ➡️ Następny moduł Ścieżki Pythona
+
+Twój backend zwraca **zwykły tekst** — ładny dla człowieka, bezużyteczny dla kodu. W kolejnym module naprawiasz to na poziomie architektury:
+
+**[Moduł 2: Pydantic AI →](W6_PYDANTIC_AI.md)** — agent, który zwraca **zwalidowany obiekt**, a nie zdanie. (I okazuje się, że znasz to już z Modułu 4 — bo `pydantic` to `zod` w Pythonie.)

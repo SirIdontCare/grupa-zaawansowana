@@ -104,13 +104,17 @@ W dwóch modułach (**3 — debugowanie** i **4 — capstone**) celowo przykręc
 | ⭐ [Extra 1: Twoja baza od środka](E1_BAZA_OD_SRODKA.md) | SQL, tabele, własne zapytania do bazy agenta |
 | ⭐ [Extra 2: Panuj nad kosztami agenta](E2_KOSZTY_AGENTA.md) | audyt kosztów, płatne przełączniki, limity, tokeny |
 
-### Poziom wyżej
+### 🐍 Ścieżka Pythona — poziom wyżej
 
-| Moduł | Czego się nauczysz |
-|---|---|
-| 🐍 [Bonus: Twój agent na backendzie w Pythonie](W5_BONUS_PYTHON.md) | FastAPI, architektura klient–serwer, drugi język |
+Osobne piętro **ponad** ścieżką główną: drugi język, prawdziwy backend i frameworki agentowe. W pełni opcjonalne.
 
-> 🐍 **Bonus (Python) to osobny, wyższy poziom** — nie część głównej ścieżki, tylko krok ponad nią. Dla tych, którzy chcą sięgnąć jeszcze wyżej.
+| # | Moduł | Czego się nauczysz | Trudność |
+|---|---|---|---|
+| **1** | [Twój agent na backendzie w Pythonie](W5_BONUS_PYTHON.md) | FastAPI, architektura klient–serwer, drugi język | 🟢 |
+| **2** | [Pydantic AI](W6_PYDANTIC_AI.md) | zwalidowana odpowiedź zamiast tekstu (`pydantic` = `zod` w Pythonie) | 🟡 |
+| **3** | [LangGraph](W7_LANGGRAPH.md) | jawna pętla ReAct jako graf — zobacz to, co SDK ukrywało | 🔴 |
+
+> 🐍 **To nie jest część głównej ścieżki.** Ukończenie Modułów 0–4 to pełne zaliczenie Grupy Zaawansowanej. Ścieżkę Pythona bierzesz, jeśli chcesz sięgnąć piętro wyżej — i możesz przerwać ją na dowolnym module.
 
 ## Efekt
 
