@@ -16,7 +16,12 @@ Dla każdego, kto zbudował już aplikację z pomocą asystenta AI i czuje, że 
 
 ## Jak to działa
 
-> 🛑 **Pracujesz na KOPII i na OSOBNEJ BAZIE.** Całą ścieżkę robisz na **kopii swojego agenta w stanie po Lekcji 7**, w osobnym folderze i podpiętej do **własnej, nowej bazy danych**. Główny projekt i jego baza zostają nietknięte — na nich idziesz dalej na zwykłych zajęciach. Bez tej izolacji eksperymenty z tej ścieżki potrafią rozwalić projekt kursowy. Konfigurację przechodzisz w [Module 0](W0_KOKPIT.md).
+> 🛑 **Pełna izolacja od kursu — to warunek wejścia.** Całą ścieżkę robisz na **kopii swojego agenta po Lekcji 7**, która ma:
+> - **osobny folder** (z usuniętym `.git`, żeby nie ciągnąć powiązania z repo kursowym),
+> - **osobną bazę danych** (nowy projekt Supabase / Neon),
+> - **osobne repo na GitHubie** i **żadnego deployu** — pracujesz lokalnie (`npm run dev`).
+>
+> Twój projekt kursowy, jego baza i jego wersja na Vercelu zostają **nietknięte** — na nich idziesz dalej na zwykłych zajęciach. Bez tej izolacji eksperymenty z tej ścieżki potrafią rozwalić kurs. Wszystko ustawiasz w [Module 0](W0_KOKPIT.md) i [Module 1](W1_GIT_GITHUB.md).
 
 Ścieżka jest **samoobsługowa** i idziesz nią własnym tempem:
 

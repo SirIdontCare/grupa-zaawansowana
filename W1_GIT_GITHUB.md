@@ -29,10 +29,22 @@ git config --global user.email "twoj@email.pl"
 ```
 
 ### 2. Zainicjuj repozytorium
-Będąc w folderze projektu:
+Będąc w folderze **kopii**:
 ```bash
 git init
 ```
+
+**Natychmiast sprawdź, czy nie ciągniesz za sobą repo kursowego:**
+```bash
+git remote -v
+```
+**Oczekiwany wynik: PUSTO** (żadnej linii). To znaczy, że kopia nie jest z niczym powiązana.
+
+> 🛑 Jeśli coś się wypisało (np. `origin  https://github.com/…`), to znaczy, że **nie usunąłeś `.git`** przy kopiowaniu w Module 0. Twoje commity poleciałyby do **repo kursowego** i mogłyby przedeployować Twojego kursowego agenta. Napraw to od razu:
+> ```bash
+> git remote remove origin
+> ```
+> i upewnij się, że `git remote -v` jest już puste.
 
 ### 3. Zablokuj sekrety i śmieci — `.gitignore`
 Sprawdź, czy w projekcie jest plik **`.gitignore`**. Jeśli go nie ma, utwórz go w głównym folderze i wklej:
@@ -66,12 +78,17 @@ git commit -m "Zmiana nagłówka na stronie czatu"
 
 Możesz też używać panelu **Source Control** w VS Code (ikona gałęzi po lewej) — wpisujesz opis, klikasz „Commit". To samo co w terminalu, tylko klikane.
 
-### 6. Wypchnij na GitHuba
+### 6. Wypchnij na GitHuba — do NOWEGO repozytorium
 **Najprościej — przez VS Code:**
 1. Załóż darmowe konto na [github.com](https://github.com/signup) (jeśli nie masz).
 2. W panelu **Source Control** kliknij **„Publish to GitHub"**.
-3. Wybierz **„Publish to GitHub public repository"** (kod jest bezpieczny — klucze zostały w `.env.local`, który git ignoruje).
-4. VS Code zaloguje Cię do GitHuba i wypchnie repo.
+3. Podaj **nową nazwę repo** (np. `moj-agent-zaawansowany`) — **nie wybieraj repo kursowego**.
+4. Wybierz **„Publish to GitHub public repository"** (kod jest bezpieczny — klucze zostały w `.env.local`, który git ignoruje).
+5. VS Code zaloguje Cię do GitHuba i wypchnie repo.
+
+> 🛑 **Nie wdrażaj tej kopii na Vercel.** Twój kursowy agent jest podpięty na Vercelu do **repo kursowego** i sam się przebudowuje po każdym pushu. Kopia ma **własne, nowe repo**, więc niczego nie ruszy — pod warunkiem że nie podepniesz jej do istniejącego projektu na Vercelu. W Grupie Zaawansowanej **wszystko robisz lokalnie** (`npm run dev`); deploy nie jest częścią tej ścieżki.
+>
+> Bardzo chcesz mieć kopię w internecie? Zrób **osobny projekt na Vercelu** z nowego repo i wpisz mu **zmienne środowiskowe nowej bazy**. Projektu kursowego nie dotykaj.
 
 > Wolisz prywatne repo? Wybierz „private" — tylko wtedy **dodaj prowadzącego jako collaborator** (Settings → Collaborators), inaczej nie otworzy linku.
 

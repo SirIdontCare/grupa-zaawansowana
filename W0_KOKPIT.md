@@ -41,7 +41,19 @@ Zaloguj się w niej swoim kontem. To Twój drugi pilot — zostaje z Tobą do ko
 ### 3. Skopiuj agenta (stan po Lekcji 7) i otwórz KOPIĘ
 1. Znajdź folder swojego agenta z kursu głównego (ten, w którym jest `package.json`) — w stanie **po Lekcji 7**.
 2. Skopiuj **cały folder** obok i nazwij kopię np. `moj-agent-zaawansowany`. (Nie musisz kopiować `node_modules` — odtworzysz je przez `npm install`.)
-3. W VS Code: `File → Open Folder…` → wskaż **kopię** (`moj-agent-zaawansowany`), **nie oryginał**.
+3. **Odetnij kopię od repozytorium kursowego** — usuń z niej ukryty folder `.git`. To krytyczne: razem z projektem skopiowałeś jego historię i **powiązanie z Twoim repo kursowym na GitHubie**. Bez tego pierwszy `push` z kopii poleciałby do repo kursu i mógłby **przedeployować Twojego kursowego agenta**.
+
+   W terminalu, będąc **w folderze kopii**:
+   ```bash
+   # Windows (PowerShell):
+   Remove-Item -Recurse -Force .git
+
+   # Mac / Linux / Git Bash:
+   rm -rf .git
+   ```
+   > Folder `.git` jest ukryty — w Eksploratorze może być niewidoczny. Najpewniej usuniesz go komendą wyżej.
+
+4. W VS Code: `File → Open Folder…` → wskaż **kopię** (`moj-agent-zaawansowany`), **nie oryginał**.
 
 Po lewej, w **Explorerze**, zobaczysz drzewo plików. Od teraz **cała Grupa Zaawansowana dzieje się na tej kopii** — oryginału nie ruszasz, żeby na zajęciach (Lekcje 8–12) nie było rozjazdu.
 
