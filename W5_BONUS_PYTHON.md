@@ -62,7 +62,7 @@ pip install fastapi uvicorn google-genai python-dotenv
 ### 4. Klucz API i ochrona sekretów
 Utwórz plik **`.env`** w `agent-backend`:
 ```
-GOOGLE_API_KEY=twoj_klucz_z_ai_studio
+GOOGLE_GENERATIVE_AI_API_KEY=TU_WKLEJ_SWOJ_KLUCZ_Z_AI_STUDIO
 ```
 I plik **`.gitignore`**:
 ```
@@ -95,7 +95,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY"))
+client = genai.Client(api_key=os.getenv("GOOGLE_GENERATIVE_AI_API_KEY"))
 
 SYSTEM_PROMPT = "Jesteś pomocnym asystentem. Odpowiadaj po polsku, krótko i konkretnie."
 
@@ -124,6 +124,8 @@ Przeczytaj ten plik linijka po linijce — rozumiesz już z Modułu 2, jak śled
 ```bash
 uvicorn main:app --reload --port 8000
 ```
+
+> 💡 **Windows:** jeśli w konsoli zamiast polskich znaków widzisz krzaki (`dzia�am`), to tylko kwestia kodowania terminala — odpowiedź jest poprawna. W przeglądarce wyświetli się prawidłowo.
 Wejdź na **http://localhost:8000/docs** — FastAPI sam generuje interaktywną dokumentację. Rozwiń `POST /chat`, kliknij **Try it out**, wpisz wiadomość i **Execute**.
 
 Jeśli dostajesz odpowiedź — **Twój agent myśli już w Pythonie.** 🎉
